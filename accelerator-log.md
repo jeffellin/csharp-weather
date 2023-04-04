@@ -3,7 +3,7 @@
 ## Options
 ```json
 {
-  "applicationName" : "Steeltoe Weather Forecast",
+  "applicationName" : "Sample",
   "projectName" : "weatherforecast-steeltoe"
 }
 ```
@@ -14,7 +14,7 @@
 ┃ ┏ ┏ engine.transformations[0].validated (Combo)
 ┃ ┃ ┃  Info Combo running as Let
 ┃ ┃ ┃ engine.transformations[0].validated.delegate (Let)
-┃ ┃ ┃ Debug Adding symbol compilerSafeAppName with value 'Steeltoe Weather Forecast'
+┃ ┃ ┃ Debug Adding symbol compilerSafeAppName with value 'Sample'
 ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in (Chain)
 ┃ ┃ ┃ ┃  Info Running Chain(Merge, UniquePath)
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0] (Merge)
@@ -64,10 +64,10 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml matched [README.md, config/**, catalog/**, Tiltfile] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug global.json didn't match [README.md, config/**, catalog/**, Tiltfile] -> included
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].sources[0].delegate.transformations[2] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [Sample->Steeltoe Weather For...(truncated)]
+┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [Sample->Sample]
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].sources[0].delegate.transformations[3] (RewritePath)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug Path 'Sample.csproj' matched 'Sample(.*)' with groups {g0=Sample.csproj, g1=.csproj} and was rewritten to 'Steeltoe Weather Forecast.csproj'
-┃ ┃ ┃ ┃ ┃ ┗ ┗ Debug Path 'Sample.sln' matched 'Sample(.*)' with groups {g0=Sample.sln, g1=.sln} and was rewritten to 'Steeltoe Weather Forecast.sln'
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug Path 'Sample.csproj' matched 'Sample(.*)' with groups {g0=Sample.csproj, g1=.csproj} and was rewritten to 'Sample.csproj'
+┃ ┃ ┃ ┃ ┃ ┗ ┗ Debug Path 'Sample.sln' matched 'Sample(.*)' with groups {g0=Sample.sln, g1=.sln} and was rewritten to 'Sample.sln'
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].sources[1] (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain
 ┃ ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.delegate.in.transformations[0].sources[1].delegate (Chain)
@@ -93,7 +93,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml matched [README.md, config/**, catalog/**, Tiltfile] -> included
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug global.json didn't match [README.md, config/**, catalog/**, Tiltfile] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].sources[1].delegate.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [Sample->Steeltoe Weather For...(truncated), sample-app->weatherforecast-stee...(truncated)]
+┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [Sample->Sample, sample-app->weatherforecast-stee...(truncated)]
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].sources[1].delegate.transformations[2] (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.delegate.in.transformations[0].sources[1].delegate.transformations[2].delegate (Chain)
@@ -138,7 +138,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml didn't match [**/*.cs] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug global.json didn't match [**/*.cs] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].sources[2].delegate.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [Sample->Steeltoe Weather For...(truncated)]
+┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [Sample->Sample]
 ┃ ┃ ┃ ┃ ┗ ╺ engine.transformations[0].validated.delegate.in.transformations[0].sources[3] (Provenance)
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[1] (UniquePath)
 ┃ ┃ ┃ ┃ ┃ Debug Multiple representations for path 'Controllers/WeatherForecastController.cs', will use the one appearing last 

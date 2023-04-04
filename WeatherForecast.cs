@@ -1,4 +1,4 @@
-namespace Steeltoe Weather Forecast;
+namespace Sample;
 
 public class WeatherForecast
 {

@@ -1,4 +1,4 @@
-# Steeltoe Steeltoe Weather Forecast Accelerator
+# Steeltoe Sample Accelerator
 
 A sample accelerator for Steeltoe.
 
@@ -58,7 +58,7 @@ This depends on the TAP installation having DNS configured for the Knative ingre
 Publish the application locally using the .NET cli. The following command will create a publish folder automatically:
 
 ```
-dotnet publish -o publish Steeltoe Weather Forecast.csproj
+dotnet publish -o publish Sample.csproj
 ```
 
 Push the app to Cloud Foundry:

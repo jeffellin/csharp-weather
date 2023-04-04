@@ -1,5 +1,5 @@
-id: 22791496-2f06-437c-8e27-d991a8f44c21
-timestamp: 2023-04-04T17:02:43Z
+id: 03af8465-b545-4e1c-a203-8a3669c72865
+timestamp: 2023-04-04T17:31:34Z
 username: guest
 source: TAP-GUI
 accelerator:
@@ -11,5 +11,5 @@ fragments:
     source:
       image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
 options:
-  applicationName: Steeltoe Weather Forecast
+  applicationName: Sample
   projectName: weatherforecast-steeltoe
